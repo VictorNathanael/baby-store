@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>BabyStore</title>
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="shortcut icon" href="/img/babystore-icon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <div id="containerHeader">
+                <figure id="logoBabyStore">
+                    <img src="/img/babystore-logo.png" alt="Logo BabyStore">
+                </figure>
+                <h2>BabyStore</h2>
+                <nav id="linksHeader">
+                    <a href="/html/index.html" id="inicio">Início</a>
+                    <a href="#" id="produtos">Produtos</a>
+                    <a href="#" id="contato">Contato</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <h1 id="titulo">Manda sua mensagem pra gente!</h1>
+            <form>
+                <div id="names">
+                    <div class="container">
+                        <label for="nome">Nome <span style="color: red;">*</span></label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div class="container">
+                        <label for="sobrenome">Sobrenome <span style="color: red;">*</span></label>
+                        <input type="text" name="sobrenome" id="sobrenome" required>
+                    </div>    
+                </div>
+                <div class="container">
+                    <label for="email">Email <span style="color: red;">*</span></label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="container">
+                    <span id="motivo"><label for="motivo">Qual o motivo do seu contato?</label></span>
+                    <select>
+                        <option selected disabled value="">Selecione</option>
+                        <option>Sugestão</option>
+                        <option>Dúvida</option>
+                        <option>Reclamação</option>
+                    </select>
+                </div>
+                <div class="container">
+                    <div id="idadeBB">
+                        <label for="idadeBB" id="textBB">Qual a idade do seu bebê?</label>
+                        <label>
+                            <input type="radio" name="idadeBB" value="menosDeSeis"> menos de 6 meses
+                        </label>
+                        <label>
+                            <input type="radio" name="idadeBB" value="seisAteUm"> 6 meses - 1 ano
+                        </label>
+                        <label>
+                            <input type="radio" name="idadeBB" value="umAteDois"> 1 ano - 2 anos
+                        </label>
+                        <label>
+                            <input type="radio" name="idadeBB" value="maisDeDois"> mais de 2 anos 
+                        </label>
+                    </div>
+                </div>
+                <div class="container">
+                    <span id="mensagem"><label>Mensagem</label></span>
+                    <textarea rows="6" cols="62" name="mensagem"></textarea>
+                </div>
+                <div class="container">
+                    <div id="ofertas">
+                        <span id="textOfertas"><label>Você gostaria de receber nossas ofertas no e-mail?</label></span> 
+                        <input type="checkbox" checked name="sim">
+                        <label for="sim">Sim</label>
+                    </div>
+                </div>
+                    <button type="submit" id="botao">Enviar</button>
+            </form>
+        </main>
+
+        <footer>
+            <div id="rodape">
+                <div id="redesSociais">
+                    <a href="https://www.linkedin.com/in/victornathanael/" target="_blank"><img src="/img/facebook-icon.png" alt="ícone do facebook"></a>
+                    <a href="https://www.linkedin.com/in/victornathanael/" target="_blank"><img src="/img/instagram-icon.png" alt="ícone do instagram"></a>
+                    <a href="https://www.linkedin.com/in/victornathanael/" target="_blank"><img src="/img/twitter-icon.png" alt="ícone do twitter"></a>
+                    <a href="https://www.linkedin.com/in/victornathanael/" target="_blank"><img src="/img/whatsapp-icon.png" alt="ícone do whatsapp"></a>                    
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

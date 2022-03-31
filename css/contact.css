@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #cdf3ff4d;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+header {
+    background-color: #ffeddac2;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    height: 90px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+#containerHeader {
+    margin: 0 180px;
+}
+
+#containerHeader figure img {
+    margin-top: 10px;
+    height: 70px;
+}
+
+#containerHeader h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #69585f;
+    font-size: 35px;
+    margin: -57px 0 0 72px;
+}
+
+#linksHeader {
+    display: flex;
+    justify-content: end;
+}
+
+#linksHeader a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #69585f;
+    text-decoration: none;
+    margin: -28px 30px 0;
+}
+
+
+#linksHeader a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* form */
+
+main {
+    margin: 0 33%;
+}
+
+#titulo {
+    font-size: 25px;
+    text-align: center;
+    margin: 30px;
+}
+
+input, select, textarea, button {
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+#names {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.container input[type="text"], .container input[type="email"], .container select, .container textarea {
+    padding: 3px;
+    border: 1px solid #00ff0054;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+    display: block;
+}
+
+#email {
+    margin-bottom: 30px;
+}
+
+#motivo {
+    display: flex;
+    margin-bottom: 7px;
+}
+
+.container select {
+    margin-bottom: 25px;
+}
+
+#textBB {
+    margin-bottom: 10px;
+}
+
+#idadeBB {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.container input:focus, .container select:focus, .container textarea:focus {
+    background: #e0f8ec67;
+}
+
+#mensagem {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#textOfertas {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#ofertas {
+    margin-top: 30px;
+}
+
+#botao {
+    font-size: 20px;
+    background: #429d4e;
+    border: 0;
+    color: #ffffff;
+    padding: 4px 12px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    margin: 20px 180px;
+}
+
+#botao:hover {
+    background-color: #bbffc4;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+#botao, select {
+    cursor: pointer;
+}
+
+footer {
+    background-color: #ffeddac2;
+    box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.15);
+    height: 100px;
+}
+
+#rodape {
+    margin: 0 180px;
+}
+
+#redesSociais {
+    display: flex;
+    justify-content: end;
+}
+
+#redesSociais a {
+    height: 35px;
+    width: 35px;    
+    margin: 10px;
+    margin-top: 8vh;
+}
+
+#redesSociais img {
+    height: 100%;
+    width: 100%;
+}
